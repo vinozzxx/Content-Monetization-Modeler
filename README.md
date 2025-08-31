@@ -15,4 +15,4 @@ As creators and media companies rely more on platforms like YouTube, **predictin
 
 - **Overview**
 
-  ![dashboard overview]()  
+  ![dashboard overview](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/9304af28e53c9a5977a0a13a6adf85369c685521/dashboard_1.png)  
