@@ -70,11 +70,69 @@ The dataset contains daily performance and contextual information for YouTube vi
 
 - **Prediction Output**  
 
-  ![Prediction Output](assets/dashboard_prediction.png)  
+  ![Prediction Output](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/8fdaf7462b798658cc81c00fd08b09ec122e5080/dashboard_2.png)  
+
+The dashboard includes the following insights:  
+
+- **Input Controls** – Users can enter video metrics (views, likes, comments, watch time, subscribers) along with metadata (upload date, category, device, country).  
+- **KPI Card** – Displays the **predicted revenue** for the video in a highlighted box.  
+- **Summary Panel** – Shows the entered metrics and metadata for easy verification.  
+- **Comparison Visuals** *(optional)* – Feature importance plots and revenue distribution graphs from the training pipeline help understand model behavior.  
+- **Interactive Workflow** – Real-time prediction powered by the trained XGBoost pipeline.  
 
 
+## Project Structure
+```
+📁 Content-Monetization-Modeler/
+│
+├── 📄 main.py # Full pipeline: EDA → Preprocessing → Modeling
+├── 📄 app.py # Streamlit dashboard for revenue prediction
+├── 📄 youtube_data.csv # Dataset (synthetic YouTube video stats)
+│
+├── 📂 models/ # Saved ML pipelines & scalers
+│ ├── pipe_xgb.pkl # Trained XGBoost pipeline
+│ └── y_scaler.pkl # Target scaler for inverse transform
+│
+├── 📂 assets/ # Visualization outputs
+│ ├── revenue_distribution.png
+│ ├── correlation_heatmap.png
+│ └── feature_importance.png
+│
+├── 📄 requirements.txt # Project dependencies
+└── 📄 README.md # Documentation
 
+```
 
+## ❓ FAQs  
+
+1. `What is this project about?`  
+A machine learning project that predicts **YouTube ad revenue for videos** based on engagement and metadata features. It includes an **end-to-end pipeline** with EDA, preprocessing, model building, and a Streamlit app for deployment.  
+
+2. `What insights are provided?`  
+- Feature importance for revenue prediction  
+- Correlation between engagement metrics (views, likes, comments, watch-time) and ad revenue  
+- Model comparison across ML algorithms (Linear Regression, Random Forest, XGBoost)  
+- Prediction of expected ad revenue for new video data  
+
+3. `What technologies are used?`  
+- [**Python**](https://www.python.org/) – Core development  
+- [**Pandas**](https://pandas.pydata.org/) – Data cleaning & wrangling  
+- [**NumPy**](https://numpy.org/) – Numerical computations  
+- [**Scikit-learn**](https://scikit-learn.org/) – Machine learning pipelines  
+- [**XGBoost**](https://xgboost.readthedocs.io/) – Gradient boosting for accurate predictions  
+- [**Matplotlib**](https://matplotlib.org/) / [**Seaborn**](https://seaborn.pydata.org/) – Visualization  
+- [**Streamlit**](https://streamlit.io/) – Interactive web app for predictions  
+
+4. `How to run the project?`  
+git clone https://github.com/your-username/Content-Monetization-Modeler.git
+cd Content-Monetization-Modeler
+pip install -r requirements.txt
+streamlit run app.py
+
+5. `Can I contribute?`
+Yes! Fork the repo, make your changes, and raise a pull request. All contributions are welcome 🚀
+
+```bash
 
 
 
