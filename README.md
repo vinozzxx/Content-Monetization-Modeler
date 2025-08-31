@@ -12,9 +12,16 @@ As creators and media companies rely more on platforms like YouTube, **predictin
 
 ## table of contents
 - [project description](#project-description)
+- [dataset insight](#dataset-insight)
+- [tech stack](#tech-stack)
+- [key features](#key-features)
+- [documentation](#documentation)
+- [dashboard](#dashboard)
+- [project structure](#project-structure)
+- [faqs](#faqs)
 
 
-## 🎯 Goal  
+## Goal  
 The primary goal of the **Content Monetization Modeler** is to **predict YouTube ad revenue** for individual videos using machine learning models, and make the results accessible via an interactive **Streamlit app**.  
 
 This enables content creators and media companies to:  
@@ -38,7 +45,7 @@ The dataset contains daily performance and contextual information for YouTube vi
 - **Ad Revenue (USD)** – Target variable, representing daily ad revenue earned
 
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 - [**Python**](https://www.python.org/) – Core programming language for data analysis and modeling  
 - [**Pandas**](https://pandas.pydata.org/) – Data manipulation, cleaning, and wrangling  
@@ -49,7 +56,7 @@ The dataset contains daily performance and contextual information for YouTube vi
 - [**Streamlit**](https://streamlit.io/) – Interactive web application for model deployment  
 - [**Pickle**](https://docs.python.org/3/library/pickle.html) – Model serialization and saving pipelines  
 
-## ✨ Key Features  
+## Key Features  
 
 - **Ad Revenue Prediction** – Estimate YouTube video ad revenue based on performance & contextual metrics  
 - **Engagement Metrics Analysis** – Study the effect of likes, comments, views, and watch-time on revenue  
@@ -62,7 +69,7 @@ The dataset contains daily performance and contextual information for YouTube vi
 - **Visual Insights Dashboard** – Revenue distribution, feature importance, and correlation visualizations inside the app  
 
 
-## 📊 Dashboard  
+## Dashboard  
 
 - **Overview**  
 
@@ -103,7 +110,7 @@ The dashboard includes the following insights:
 
 ```
 
-## ❓ FAQs  
+## FAQs  
 
 1. `What is this project about?`  
 A machine learning project that predicts **YouTube ad revenue for videos** based on engagement and metadata features. It includes an **end-to-end pipeline** with EDA, preprocessing, model building, and a Streamlit app for deployment.  
@@ -123,16 +130,16 @@ A machine learning project that predicts **YouTube ad revenue for videos** based
 - [**Matplotlib**](https://matplotlib.org/) / [**Seaborn**](https://seaborn.pydata.org/) – Visualization  
 - [**Streamlit**](https://streamlit.io/) – Interactive web app for predictions  
 
-4. `How to run the project?`  
-git clone https://github.com/your-username/Content-Monetization-Modeler.git
+4. `How to run the project?`
+
+```bash
+git clone [https://github.com/your-username/Content-Monetization-Modeler.git](https://github.com/your-username/Content-Monetization-Modeler.git)
 cd Content-Monetization-Modeler
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 5. `Can I contribute?`
 Yes! Fork the repo, make your changes, and raise a pull request. All contributions are welcome 🚀
-
-```bash
 
 
 
