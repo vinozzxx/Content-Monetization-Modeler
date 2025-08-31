@@ -10,3 +10,9 @@ As creators and media companies rely more on platforms like YouTube, **predictin
 📁 **Dataset Size**: ~122,000 synthetic video records  
 🔧 **Model Type**: Regression (XGBoost + Scikit-learn)  
 🌐 **Frontend**: Streamlit Web App
+
+## Dash Board  
+
+- **Overview**
+
+  ![dashboard overview]()  
