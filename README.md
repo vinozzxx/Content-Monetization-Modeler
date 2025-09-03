@@ -1,4 +1,4 @@
-# Content-Monetization-Modeler
+# Content Monetization Modeler
 
 **Predict YouTube Ad Revenue with Machine Learning**
 
@@ -44,6 +44,7 @@ The dataset contains daily performance and contextual information for YouTube vi
 - **Country** – Viewer’s geographical location  
 - **Ad Revenue (USD)** – Target variable, representing daily ad revenue earned
 
+**[`^        back to top        ^`](#Content-Monetization-Modeler)**
 
 ## Tech Stack  
 
