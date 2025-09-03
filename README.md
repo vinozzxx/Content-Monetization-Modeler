@@ -69,6 +69,7 @@ The dataset contains daily performance and contextual information for YouTube vi
 - **Interactive Streamlit App** – Input custom video metrics and instantly predict expected ad revenue  
 - **Visual Insights Dashboard** – Revenue distribution, feature importance, and correlation visualizations inside the app  
 
+**[`^        back to top        ^`](#Content-Monetization-Modeler)**
 
 ## Dashboard  
 
@@ -79,6 +80,8 @@ The dataset contains daily performance and contextual information for YouTube vi
 - **Prediction Output**  
 
   ![Prediction Output](https://github.com/vinozzxx/Content-Monetization-Modeler/blob/8fdaf7462b798658cc81c00fd08b09ec122e5080/dashboard_2.png)  
+
+**[`^        back to top        ^`](#Content-Monetization-Modeler)**
 
 The dashboard includes the following insights:  
 
@@ -110,6 +113,7 @@ The dashboard includes the following insights:
 └── 📄 README.md # Documentation
 
 ```
+**[`^        back to top        ^`](#Content-Monetization-Modeler)**
 
 ## FAQs  
 
@@ -143,7 +147,7 @@ streamlit run app.py
 Yes! Fork the repo, make your changes, and raise a pull request. All contributions are welcome 🚀
 
 
-
+**[`^        back to top        ^`](#Content-Monetization-Modeler)**
 
 
 
